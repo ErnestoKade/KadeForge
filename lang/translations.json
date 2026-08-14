@@ -1,0 +1,464 @@
+{
+  "en": {
+    "progress_bar": {
+      "title": "Progress Bar Adder",
+      "subtitle": "1. Choose type → 2. See visual → 3. Generate code",
+      "explanation": "This tool creates progress bars for your applications.\n\nTwo types available:\n\n• With %\n  Shows percentage and file count\n\n• Indeterminate\n  Goes left ↔ right (for unknown time)\n\nWhere to insert:\n\n1. Widget creation → inside your __init__\n2. The functions (update_progress, start_loading, stop_loading) do NOT exist yet. You must create them by pasting the def at the same level as your __init__ method.\n3. Call the functions inside your long process."
+    },
+    "indent_fixer": {
+      "title": "Indent Fixer",
+      "subtitle": "1. Bad code → 2. Format → 3. Good code",
+      "explanation": "This tool fixes bad Python indentation.\n\nHow to use:\n1. Paste your code on the left\n2. Click the button\n3. Copy the fixed code\n\nWhere to insert:\n1. Replace your old badly indented code with the new fixed version.\n2. Keep the same place in your file.\n\nImportant: Python is very sensitive to spaces. Never mix tabs and spaces.\n\nNo new method to create."
+    },
+    "tk_to_ctk": {
+      "title": "Tkinter → CustomTkinter",
+      "subtitle": "1. Paste Tkinter code → 2. Convert → 3. Get code",
+      "explanation": "Converts classic Tkinter to modern CustomTkinter.\n\nChanges:\n• import tkinter → ctk\n• Tk() → CTk()\n• Button → CTkButton\n• Label → CTkLabel\n• bg= → fg_color=\n\nWhere to insert:\n1. Best: replace your entire old file.\n2. Or copy widgets into your __init__.\n\nNeed: pip install customtkinter"
+    },
+    "ui_modernizer": {
+      "title": "UI Modernizer",
+      "subtitle": "1. Choose option → 2. See visual → 3. Generate code",
+      "explanation": "Modernize your UI with ready snippets.\n\nOptions: Dark Mode, Modern Buttons, Color Palette, Title+Footer, Clean Layout.\n\nWhere to insert:\n1. Dark Mode & Palette → top of file or __init__\n2. Buttons / Title → inside __init__\n3. Layout → replace your packing code"
+    },
+    "status_logger": {
+      "title": "Status / Logs Adder",
+      "subtitle": "1. Choose type → 2. See visual → 3. Generate code",
+      "explanation": "Adds status bar or live logs.\n\nOptions: Simple Status, Live Logs, Status + Counter.\n\nWhere to insert:\n1. Widget → inside __init__\n2. Functions (update_status, log) do NOT exist yet → create them at the same level as __init__\n3. Call them when needed"
+    },
+    "interface_templates": {
+      "title": "Interface Templates",
+      "subtitle": "1. Choose template → 2. See visual → 3. Generate code",
+      "explanation": "Ready-to-use templates.\n\nBasic, Two Columns, List+Actions, Form.\n\nWhere to insert:\n1. Create a new file\n2. Paste the full code\n3. Run it"
+    },
+    "pyinstaller_builder": {
+      "title": "PyInstaller Builder",
+      "subtitle": "1. Choose options → 2. See live command → 3. Generate",
+      "explanation": "This tool builds the perfect PyInstaller command for your project.\n\nOptions:\n• --onefile or --onedir\n• --windowed or --console\n• Icon support\n• Add data folders (assets / tools)\n\nWhere to use:\n1. Open PowerShell in your project folder\n2. Paste the generated command\n3. Press Enter\n\nThe .exe will be created in the 'dist' folder.\n\nTip: Always test with --onedir first if you have problems."
+    },
+    "import_cleaner": {
+      "title": "Import Cleaner",
+      "subtitle": "1. Paste code → 2. Clean → 3. Get sorted imports",
+      "explanation": "This tool removes unused imports and sorts them cleanly.\n\nWhat it does:\n• Removes imports that are not used in the code\n• Sorts imports alphabetically\n• Keeps only what is necessary\n\nWhere to insert:\n1. Replace the import section at the top of your file with the cleaned version.\n\nTip: Always check the result, some dynamic imports may be removed."
+    },
+    "icon_adder": {
+      "title": "Icon Adder",
+      "subtitle": "1. Choose type → 2. See code → 3. Generate",
+      "explanation": "This tool adds an icon to your Tkinter or CustomTkinter window.\n\nWhat it does:\n• Adds the correct iconbitmap line\n• Works for both Tkinter and CustomTkinter\n• Also prepares the PyInstaller --icon argument\n\nWhere to insert:\n1. Put the generated code inside your __init__ method, just after creating the window."
+    },
+    "project_doctor": {
+      "title": "Project Doctor",
+      "subtitle": "1. Select project → 2. Scan → 3. Fix safe issues",
+      "explanation": "This tool analyzes your project and finds common problems.\n\nIt checks for:\n• Missing imports\n• Mixed tabs/spaces\n• Unused imports\n• Missing main guard\n• Missing requirements.txt\n• Missing README\n• Missing icon\n• Missing .gitignore\n\nSafe issues can be fixed automatically."
+    },
+    "scrollable_frame_adder": {
+      "title": "Scrollable Frame Adder",
+      "subtitle": "1. Choose type → 2. See visual → 3. Generate code",
+      "explanation": "This tool creates a scrollable frame (one of the most annoying things in Tkinter).\n\nIt generates:\n• Canvas\n• Scrollbar\n• Inner frame\n• Mouse wheel support\n\nWhere to insert:\n1. Put the code inside your __init__ method.\n2. Then add your widgets inside the scrollable frame."
+    },
+    "exception_wrapper": {
+      "title": "Exception Wrapper",
+      "subtitle": "1. Choose type → 2. See preview → 3. Generate",
+      "explanation": "This tool wraps a function with try/except to avoid crashes.\n\nTwo versions:\n• Print the error in the console\n• Show a MessageBox (for Tkinter apps)\n\nWhere to insert:\n1. Replace your function call with the wrapped version.\n2. Or wrap the whole function."
+    },
+    "theme_switcher": {
+      "title": "Theme Switcher",
+      "subtitle": "1. Generate → 2. Copy → 3. Paste in your app",
+      "explanation": "This tool adds a theme switcher (Dark / Light / System) to your CustomTkinter application.\n\nWhere to insert:\n1. Put the option menu inside your __init__.\n2. Put the change_theme function at the same level as __init__."
+    },
+    "release_packager": {
+      "title": "Release Packager",
+      "subtitle": "1. Select .exe → 2. Choose options → 3. Create ZIP",
+      "explanation": "This tool creates a clean ZIP ready for GitHub Releases.\n\nIt includes:\n• Your .exe\n• README.md (optional)\n• LICENSE (optional)\n\nThe ZIP is created next to your .exe."
+    },
+    "config_file_creator": {
+      "title": "Config File Creator",
+      "subtitle": "1. Generate → 2. Copy → 3. Use in your project",
+      "explanation": "This tool creates a clean config.json system.\n\nIt generates:\n• config.json example\n• load_config() function\n• save_config() function\n\nWhere to insert:\n1. Create a config.json file in your project.\n2. Put the two functions in your code."
+    }
+  },
+  "fr": {
+    "progress_bar": {
+      "title": "Ajouteur de Barre de Progression",
+      "subtitle": "1. Choisir le type → 2. Voir le visuel → 3. Générer le code",
+      "explanation": "Cet outil crée des barres de progression pour tes applications.\n\nDeux types disponibles :\n\n• Avec %\n  Affiche le pourcentage et le nombre de fichiers\n\n• Indéterminée\n  Va de gauche ↔ droite (temps inconnu)\n\nOù insérer :\n\n1. Création du widget → à l'intérieur de ton __init__\n2. Les fonctions (update_progress, start_loading, stop_loading) n'existent PAS encore. Tu dois les créer en collant le def au même niveau que ta méthode __init__.\n3. Appelle les fonctions à l'intérieur de ton long processus."
+    },
+    "indent_fixer": {
+      "title": "Correcteur d'Indentation",
+      "subtitle": "1. Code mal indenté → 2. Formater → 3. Code corrigé",
+      "explanation": "Cet outil corrige la mauvaise indentation Python.\n\nComment utiliser :\n1. Colle ton code à gauche\n2. Clique sur le bouton\n3. Copie le code corrigé\n\nOù insérer :\n1. Remplace ton ancien code mal indenté par la nouvelle version corrigée.\n2. Garde le même endroit dans ton fichier.\n\nImportant : Python est très sensible aux espaces. Ne mélange jamais tabulations et espaces.\n\nAucune nouvelle méthode à créer."
+    },
+    "tk_to_ctk": {
+      "title": "Convertisseur Tkinter → CustomTkinter",
+      "subtitle": "1. Coller code Tkinter → 2. Convertir → 3. Récupérer le code",
+      "explanation": "Convertit du code Tkinter classique en CustomTkinter moderne.\n\nCe qu'il change :\n• import tkinter → ctk\n• Tk() → CTk()\n• Button → CTkButton\n• Label → CTkLabel\n• bg= → fg_color=\n\nOù insérer :\n1. Meilleure façon : remplace tout ton ancien fichier.\n2. Ou copie les widgets dans ton __init__.\n\nBesoin : pip install customtkinter"
+    },
+    "ui_modernizer": {
+      "title": "Moderniseur d'Interface",
+      "subtitle": "1. Choisir une option → 2. Voir le visuel → 3. Générer le code",
+      "explanation": "Modernise ton interface avec des extraits prêts à l'emploi.\n\nOptions : Dark Mode, Modern Buttons, Color Palette, Title+Footer, Clean Layout.\n\nOù insérer :\n1. Dark Mode & Palette → en haut du fichier ou dans __init__\n2. Boutons / Titre → à l'intérieur de __init__\n3. Layout → remplace ton code de placement"
+    },
+    "status_logger": {
+      "title": "Ajouteur de Status / Logs",
+      "subtitle": "1. Choisir le type → 2. Voir le visuel → 3. Générer le code",
+      "explanation": "Ajoute une barre de status ou des logs en direct.\n\nOptions : Simple Status, Live Logs, Status + Counter.\n\nOù insérer :\n1. Widget → à l'intérieur de __init__\n2. Les fonctions (update_status, log) n'existent PAS encore → crée-les au même niveau que __init__\n3. Appelle-les quand tu en as besoin"
+    },
+    "interface_templates": {
+      "title": "Modèles d'Interfaces",
+      "subtitle": "1. Choisir un modèle → 2. Voir le visuel → 3. Générer le code",
+      "explanation": "Modèles prêts à l'emploi.\n\nBasic, Two Columns, List+Actions, Form.\n\nOù insérer :\n1. Crée un nouveau fichier\n2. Colle tout le code\n3. Lance-le"
+    },
+    "pyinstaller_builder": {
+      "title": "Constructeur PyInstaller",
+      "subtitle": "1. Choisir les options → 2. Voir la commande → 3. Générer",
+      "explanation": "Cet outil construit la commande PyInstaller parfaite pour ton projet.\n\nOptions :\n• --onefile ou --onedir\n• --windowed ou --console\n• Support de l'icône\n• Ajout des dossiers (assets / tools)\n\nOù l'utiliser :\n1. Ouvre PowerShell dans le dossier de ton projet\n2. Colle la commande générée\n3. Appuie sur Entrée\n\nL'exe sera créé dans le dossier 'dist'.\n\nAstuce : Teste toujours d'abord avec --onedir si tu as des problèmes."
+    },
+    "import_cleaner": {
+      "title": "Nettoyeur d'Imports",
+      "subtitle": "1. Coller le code → 2. Nettoyer → 3. Récupérer les imports triés",
+      "explanation": "Cet outil supprime les imports inutilisés et les trie proprement.\n\nCe qu'il fait :\n• Supprime les imports non utilisés dans le code\n• Trie les imports par ordre alphabétique\n• Garde seulement le nécessaire\n\nOù insérer :\n1. Remplace la section des imports en haut de ton fichier par la version nettoyée.\n\nAstuce : Vérifie toujours le résultat, certains imports dynamiques peuvent être supprimés."
+    },
+    "icon_adder": {
+      "title": "Ajouteur d'Icône",
+      "subtitle": "1. Choisir le type → 2. Voir le code → 3. Générer",
+      "explanation": "Cet outil ajoute une icône à ta fenêtre Tkinter ou CustomTkinter.\n\nCe qu'il fait :\n• Ajoute la bonne ligne iconbitmap\n• Fonctionne avec Tkinter et CustomTkinter\n• Prépare aussi l'argument --icon pour PyInstaller\n\nOù insérer :\n1. Mets le code généré à l'intérieur de ta méthode __init__, juste après la création de la fenêtre."
+    },
+    "project_doctor": {
+      "title": "Project Doctor",
+      "subtitle": "1. Sélectionner le projet → 2. Scanner → 3. Corriger les problèmes sûrs",
+      "explanation": "Cet outil analyse ton projet et trouve les problèmes courants.\n\nIl vérifie :\n• Imports manquants\n• Mélange tabs/espaces\n• Imports inutilisés\n• Guard main manquant\n• requirements.txt manquant\n• README manquant\n• Icône manquante\n• .gitignore manquant\n\nLes problèmes sûrs peuvent être corrigés automatiquement."
+    },
+    "scrollable_frame_adder": {
+      "title": "Ajouteur de Frame Scrollable",
+      "subtitle": "1. Choisir le type → 2. Voir le visuel → 3. Générer le code",
+      "explanation": "Cet outil crée une frame scrollable (un des trucs les plus chiants en Tkinter).\n\nIl génère :\n• Canvas\n• Scrollbar\n• Frame intérieure\n• Support de la molette\n\nOù insérer :\n1. Mets le code à l'intérieur de ta méthode __init__.\n2. Ensuite ajoute tes widgets dans la frame scrollable."
+    },
+    "exception_wrapper": {
+      "title": "Wrapper d'Exception",
+      "subtitle": "1. Choisir le type → 2. Voir l'aperçu → 3. Générer",
+      "explanation": "Cet outil enveloppe une fonction avec try/except pour éviter les crashs.\n\nDeux versions :\n• Afficher l'erreur dans la console\n• Afficher une MessageBox (pour les apps Tkinter)\n\nOù insérer :\n1. Remplace ton appel de fonction par la version wrappée.\n2. Ou enveloppe toute la fonction."
+    },
+    "theme_switcher": {
+      "title": "Changeur de Thème",
+      "subtitle": "1. Générer → 2. Copier → 3. Coller dans ton app",
+      "explanation": "Cet outil ajoute un changeur de thème (Dark / Light / System) à ton application CustomTkinter.\n\nOù insérer :\n1. Mets le menu d'options à l'intérieur de ton __init__.\n2. Mets la fonction change_theme au même niveau que __init__."
+    },
+    "release_packager": {
+      "title": "Packager de Release",
+      "subtitle": "1. Sélectionner le .exe → 2. Choisir les options → 3. Créer le ZIP",
+      "explanation": "Cet outil crée un ZIP propre prêt pour les GitHub Releases.\n\nIl inclut :\n• Ton .exe\n• README.md (optionnel)\n• LICENSE (optionnel)\n\nLe ZIP est créé à côté de ton .exe."
+    },
+    "config_file_creator": {
+      "title": "Créateur de Fichier Config",
+      "subtitle": "1. Générer → 2. Copier → 3. Utiliser dans ton projet",
+      "explanation": "Cet outil crée un système config.json propre.\n\nIl génère :\n• Exemple de config.json\n• Fonction load_config()\n• Fonction save_config()\n\nOù insérer :\n1. Crée un fichier config.json dans ton projet.\n2. Mets les deux fonctions dans ton code."
+    }
+  },
+  "es": {
+    "progress_bar": {
+      "title": "Añadir Barra de Progreso",
+      "subtitle": "1. Elegir tipo → 2. Ver visual → 3. Generar código",
+      "explanation": "Esta herramienta crea barras de progreso para tus aplicaciones.\n\nDos tipos disponibles:\n\n• Con %\n  Muestra el porcentaje y el número de archivos\n\n• Indeterminada\n  Va de izquierda ↔ derecha (tiempo desconocido)\n\nDónde insertar:\n\n1. Creación del widget → dentro de tu __init__\n2. Las funciones (update_progress, start_loading, stop_loading) NO existen todavía. Debes crearlas pegando el def al mismo nivel que tu método __init__.\n3. Llama a las funciones dentro de tu proceso largo."
+    },
+    "indent_fixer": {
+      "title": "Corrector de Indentación",
+      "subtitle": "1. Código mal indentado → 2. Formatear → 3. Código corregido",
+      "explanation": "Esta herramienta corrige la mala indentación de Python.\n\nCómo usar:\n1. Pega tu código a la izquierda\n2. Haz clic en el botón\n3. Copia el código corregido\n\nDónde insertar:\n1. Reemplaza tu código antiguo mal indentado con la nueva versión corregida.\n2. Mantén el mismo lugar en tu archivo.\n\nImportante: Python es muy sensible a los espacios. Nunca mezcles tabulaciones y espacios.\n\nNo hay que crear ningún método nuevo."
+    },
+    "tk_to_ctk": {
+      "title": "Convertidor Tkinter → CustomTkinter",
+      "subtitle": "1. Pegar código Tkinter → 2. Convertir → 3. Obtener código",
+      "explanation": "Convierte código Tkinter clásico en CustomTkinter moderno.\n\nLo que cambia:\n• import tkinter → ctk\n• Tk() → CTk()\n• Button → CTkButton\n• Label → CTkLabel\n• bg= → fg_color=\n\nDónde insertar:\n1. Mejor forma: reemplaza todo tu archivo antiguo.\n2. O copia los widgets en tu __init__.\n\nNecesitas: pip install customtkinter"
+    },
+    "ui_modernizer": {
+      "title": "Modernizador de UI",
+      "subtitle": "1. Elegir opción → 2. Ver visual → 3. Generar código",
+      "explanation": "Moderniza tu interfaz con fragmentos listos para usar.\n\nOpciones: Dark Mode, Modern Buttons, Color Palette, Title+Footer, Clean Layout.\n\nDónde insertar:\n1. Dark Mode & Palette → arriba del archivo o en __init__\n2. Botones / Título → dentro de __init__\n3. Layout → reemplaza tu código de empaquetado"
+    },
+    "status_logger": {
+      "title": "Añadir Status / Logs",
+      "subtitle": "1. Elegir tipo → 2. Ver visual → 3. Generar código",
+      "explanation": "Añade una barra de estado o logs en vivo.\n\nOpciones: Simple Status, Live Logs, Status + Counter.\n\nDónde insertar:\n1. Widget → dentro de __init__\n2. Las funciones (update_status, log) NO existen todavía → créalas al mismo nivel que __init__\n3. Llámalas cuando las necesites"
+    },
+    "interface_templates": {
+      "title": "Plantillas de Interfaz",
+      "subtitle": "1. Elegir plantilla → 2. Ver visual → 3. Generar código",
+      "explanation": "Plantillas listas para usar.\n\nBasic, Two Columns, List+Actions, Form.\n\nDónde insertar:\n1. Crea un nuevo archivo\n2. Pega todo el código\n3. Ejecútalo"
+    },
+    "pyinstaller_builder": {
+      "title": "Constructor de PyInstaller",
+      "subtitle": "1. Elegir opciones → 2. Ver comando → 3. Generar",
+      "explanation": "Esta herramienta construye el comando perfecto de PyInstaller para tu proyecto.\n\nOpciones:\n• --onefile o --onedir\n• --windowed o --console\n• Soporte de icono\n• Añadir carpetas (assets / tools)\n\nDónde usarlo:\n1. Abre PowerShell en la carpeta de tu proyecto\n2. Pega el comando generado\n3. Pulsa Enter\n\nEl .exe se creará en la carpeta 'dist'.\n\nConsejo: Prueba siempre primero con --onedir si tienes problemas."
+    },
+    "import_cleaner": {
+      "title": "Limpiador de Imports",
+      "subtitle": "1. Pegar código → 2. Limpiar → 3. Obtener imports ordenados",
+      "explanation": "Esta herramienta elimina los imports no utilizados y los ordena limpiamente.\n\nLo que hace:\n• Elimina los imports que no se usan en el código\n• Ordena los imports alfabéticamente\n• Conserva solo lo necesario\n\nDónde insertar:\n1. Reemplaza la sección de imports al principio de tu archivo con la versión limpia.\n\nConsejo: Siempre revisa el resultado, algunos imports dinámicos pueden eliminarse."
+    },
+    "icon_adder": {
+      "title": "Añadir Icono",
+      "subtitle": "1. Elegir tipo → 2. Ver código → 3. Generar",
+      "explanation": "Esta herramienta añade un icono a tu ventana Tkinter o CustomTkinter.\n\nLo que hace:\n• Añade la línea correcta de iconbitmap\n• Funciona con Tkinter y CustomTkinter\n• También prepara el argumento --icon para PyInstaller\n\nDónde insertar:\n1. Pon el código generado dentro de tu método __init__, justo después de crear la ventana."
+    },
+    "project_doctor": {
+      "title": "Project Doctor",
+      "subtitle": "1. Seleccionar proyecto → 2. Escanear → 3. Corregir problemas seguros",
+      "explanation": "Esta herramienta analiza tu proyecto y encuentra problemas comunes.\n\nVerifica:\n• Imports faltantes\n• Mezcla de tabs/espacios\n• Imports no usados\n• Guard main faltante\n• requirements.txt faltante\n• README faltante\n• Icono faltante\n• .gitignore faltante\n\nLos problemas seguros se pueden corregir automáticamente."
+    },
+    "scrollable_frame_adder": {
+      "title": "Añadir Frame Scrollable",
+      "subtitle": "1. Elegir tipo → 2. Ver visual → 3. Generar código",
+      "explanation": "Esta herramienta crea un frame scrollable (una de las cosas más molestas en Tkinter).\n\nGenera:\n• Canvas\n• Scrollbar\n• Frame interior\n• Soporte de rueda del ratón\n\nDónde insertar:\n1. Pon el código dentro de tu método __init__.\n2. Luego añade tus widgets dentro del frame scrollable."
+    },
+    "exception_wrapper": {
+      "title": "Wrapper de Excepción",
+      "subtitle": "1. Elegir tipo → 2. Ver vista previa → 3. Generar",
+      "explanation": "Esta herramienta envuelve una función con try/except para evitar cierres inesperados.\n\nDos versiones:\n• Mostrar el error en la consola\n• Mostrar un MessageBox (para apps Tkinter)\n\nDónde insertar:\n1. Reemplaza tu llamada a la función con la versión envuelta.\n2. O envuelve toda la función."
+    },
+    "theme_switcher": {
+      "title": "Cambiador de Tema",
+      "subtitle": "1. Generar → 2. Copiar → 3. Pegar en tu app",
+      "explanation": "Esta herramienta añade un cambiador de tema (Dark / Light / System) a tu aplicación CustomTkinter.\n\nDónde insertar:\n1. Pon el menú de opciones dentro de tu __init__.\n2. Pon la función change_theme al mismo nivel que __init__."
+    },
+    "release_packager": {
+      "title": "Empaquetador de Release",
+      "subtitle": "1. Seleccionar .exe → 2. Elegir opciones → 3. Crear ZIP",
+      "explanation": "Esta herramienta crea un ZIP limpio listo para GitHub Releases.\n\nIncluye:\n• Tu .exe\n• README.md (opcional)\n• LICENSE (opcional)\n\nEl ZIP se crea junto a tu .exe."
+    },
+    "config_file_creator": {
+      "title": "Creador de Archivo Config",
+      "subtitle": "1. Generar → 2. Copiar → 3. Usar en tu proyecto",
+      "explanation": "Esta herramienta crea un sistema config.json limpio.\n\nGenera:\n• Ejemplo de config.json\n• Función load_config()\n• Función save_config()\n\nDónde insertar:\n1. Crea un archivo config.json en tu proyecto.\n2. Pon las dos funciones en tu código."
+    }
+  },
+  "de": {
+    "progress_bar": {
+      "title": "Fortschrittsbalken Hinzufügen",
+      "subtitle": "1. Typ wählen → 2. Vorschau sehen → 3. Code generieren",
+      "explanation": "Dieses Tool erstellt Fortschrittsbalken für deine Anwendungen.\n\nZwei verfügbare Typen:\n\n• Mit %\n  Zeigt Prozentsatz und Dateianzahl\n\n• Unbestimmt\n  Geht links ↔ rechts (unbekannte Zeit)\n\nWo einfügen:\n\n1. Widget-Erstellung → innerhalb deiner __init__\n2. Die Funktionen (update_progress, start_loading, stop_loading) existieren NOCH NICHT. Du musst sie erstellen, indem du den def auf derselben Ebene wie deine __init__-Methode einfügst.\n3. Rufe die Funktionen innerhalb deines langen Prozesses auf."
+    },
+    "indent_fixer": {
+      "title": "Einrückungs-Korrektor",
+      "subtitle": "1. Schlechter Code → 2. Formatieren → 3. Guter Code",
+      "explanation": "Dieses Tool korrigiert schlechte Python-Einrückung.\n\nWie man es benutzt:\n1. Füge deinen Code links ein\n2. Klicke auf den Button\n3. Kopiere den korrigierten Code\n\nWo einfügen:\n1. Ersetze deinen alten schlecht eingerückten Code durch die neue korrigierte Version.\n2. Behalte denselben Platz in deiner Datei.\n\nWichtig: Python ist sehr empfindlich gegenüber Leerzeichen. Mische niemals Tabs und Leerzeichen.\n\nIn diesem Tool muss keine neue Methode erstellt werden."
+    },
+    "tk_to_ctk": {
+      "title": "Tkinter → CustomTkinter Konverter",
+      "subtitle": "1. Tkinter-Code einfügen → 2. Konvertieren → 3. Code erhalten",
+      "explanation": "Konvertiert klassischen Tkinter-Code in modernes CustomTkinter.\n\nWas es ändert:\n• import tkinter → ctk\n• Tk() → CTk()\n• Button → CTkButton\n• Label → CTkLabel\n• bg= → fg_color=\n\nWo einfügen:\n1. Beste Weise: ersetze deine gesamte alte Datei.\n2. Oder kopiere die Widgets in deine __init__.\n\nBenötigt: pip install customtkinter"
+    },
+    "ui_modernizer": {
+      "title": "UI Modernisierer",
+      "subtitle": "1. Option wählen → 2. Vorschau sehen → 3. Code generieren",
+      "explanation": "Modernisiert deine Benutzeroberfläche mit fertigen Snippets.\n\nOptionen: Dark Mode, Modern Buttons, Color Palette, Title+Footer, Clean Layout.\n\nWo einfügen:\n1. Dark Mode & Palette → oben in der Datei oder in __init__\n2. Buttons / Title → innerhalb von __init__\n3. Layout → ersetze deinen aktuellen Packing-Code"
+    },
+    "status_logger": {
+      "title": "Status / Logs Hinzufügen",
+      "subtitle": "1. Typ wählen → 2. Vorschau sehen → 3. Code generieren",
+      "explanation": "Fügt eine Statusleiste oder Live-Logs hinzu.\n\nOptionen: Simple Status, Live Logs, Status + Counter.\n\nWo einfügen:\n1. Widget → innerhalb von __init__\n2. Die Funktionen (update_status, log) existieren NOCH NICHT → erstelle sie auf derselben Ebene wie __init__\n3. Rufe sie auf, wenn du sie brauchst"
+    },
+    "interface_templates": {
+      "title": "Interface Vorlagen",
+      "subtitle": "1. Vorlage wählen → 2. Vorschau sehen → 3. Code generieren",
+      "explanation": "Fertige Vorlagen.\n\nBasic, Two Columns, List+Actions, Form.\n\nWo einfügen:\n1. Erstelle eine neue Datei\n2. Füge den gesamten Code ein\n3. Führe ihn aus"
+    },
+    "pyinstaller_builder": {
+      "title": "PyInstaller Builder",
+      "subtitle": "1. Optionen wählen → 2. Befehl sehen → 3. Generieren",
+      "explanation": "Dieses Tool erstellt den perfekten PyInstaller-Befehl für dein Projekt.\n\nOptionen:\n• --onefile oder --onedir\n• --windowed oder --console\n• Icon-Unterstützung\n• Ordner hinzufügen (assets / tools)\n\nWo verwenden:\n1. Öffne PowerShell im Projektordner\n2. Füge den generierten Befehl ein\n3. Drücke Enter\n\nDie .exe wird im Ordner 'dist' erstellt.\n\nTipp: Teste immer zuerst mit --onedir, wenn du Probleme hast."
+    },
+    "import_cleaner": {
+      "title": "Import Cleaner",
+      "subtitle": "1. Code einfügen → 2. Bereinigen → 3. Sortierte Imports erhalten",
+      "explanation": "Dieses Tool entfernt ungenutzte Imports und sortiert sie sauber.\n\nWas es macht:\n• Entfernt Imports, die im Code nicht verwendet werden\n• Sortiert Imports alphabetisch\n• Behält nur das Notwendige\n\nWo einfügen:\n1. Ersetze den Import-Bereich am Anfang deiner Datei durch die bereinigte Version.\n\nTipp: Überprüfe immer das Ergebnis, einige dynamische Imports können entfernt werden."
+    },
+    "icon_adder": {
+      "title": "Icon Adder",
+      "subtitle": "1. Typ wählen → 2. Code sehen → 3. Generieren",
+      "explanation": "Dieses Tool fügt ein Icon zu deinem Tkinter- oder CustomTkinter-Fenster hinzu.\n\nWas es macht:\n• Fügt die richtige iconbitmap-Zeile hinzu\n• Funktioniert mit Tkinter und CustomTkinter\n• Bereitet auch das --icon Argument für PyInstaller vor\n\nWo einfügen:\n1. Füge den generierten Code in deine __init__-Methode ein, direkt nach dem Erstellen des Fensters."
+    },
+    "project_doctor": {
+      "title": "Project Doctor",
+      "subtitle": "1. Projekt auswählen → 2. Scannen → 3. Sichere Probleme beheben",
+      "explanation": "Dieses Tool analysiert dein Projekt und findet häufige Probleme.\n\nEs prüft auf:\n• Fehlende Imports\n• Gemischte Tabs/Leerzeichen\n• Ungenutzte Imports\n• Fehlenden Main-Guard\n• Fehlende requirements.txt\n• Fehlende README\n• Fehlendes Icon\n• Fehlende .gitignore\n\nSichere Probleme können automatisch behoben werden."
+    },
+    "scrollable_frame_adder": {
+      "title": "Scrollable Frame Hinzufügen",
+      "subtitle": "1. Typ wählen → 2. Vorschau sehen → 3. Code generieren",
+      "explanation": "Dieses Tool erstellt einen scrollbaren Frame (eines der nervigsten Dinge in Tkinter).\n\nEs generiert:\n• Canvas\n• Scrollbar\n• Inneren Frame\n• Mausrad-Unterstützung\n\nWo einfügen:\n1. Füge den Code in deine __init__-Methode ein.\n2. Füge dann deine Widgets in den scrollbaren Frame ein."
+    },
+    "exception_wrapper": {
+      "title": "Exception Wrapper",
+      "subtitle": "1. Typ wählen → 2. Vorschau sehen → 3. Generieren",
+      "explanation": "Dieses Tool umschließt eine Funktion mit try/except, um Abstürze zu vermeiden.\n\nZwei Versionen:\n• Fehler in der Konsole ausgeben\n• MessageBox anzeigen (für Tkinter-Apps)\n\nWo einfügen:\n1. Ersetze deinen Funktionsaufruf durch die umschlossene Version.\n2. Oder umschließe die ganze Funktion."
+    },
+    "theme_switcher": {
+      "title": "Theme Switcher",
+      "subtitle": "1. Generieren → 2. Kopieren → 3. In deine App einfügen",
+      "explanation": "Dieses Tool fügt einen Theme-Umschalter (Dark / Light / System) zu deiner CustomTkinter-Anwendung hinzu.\n\nWo einfügen:\n1. Füge das Optionsmenü in deine __init__ ein.\n2. Füge die change_theme-Funktion auf derselben Ebene wie __init__ ein."
+    },
+    "release_packager": {
+      "title": "Release Packager",
+      "subtitle": "1. .exe auswählen → 2. Optionen wählen → 3. ZIP erstellen",
+      "explanation": "Dieses Tool erstellt ein sauberes ZIP, bereit für GitHub Releases.\n\nEs enthält:\n• Deine .exe\n• README.md (optional)\n• LICENSE (optional)\n\nDas ZIP wird neben deiner .exe erstellt."
+    },
+    "config_file_creator": {
+      "title": "Config-Datei Ersteller",
+      "subtitle": "1. Generieren → 2. Kopieren → 3. In deinem Projekt verwenden",
+      "explanation": "Dieses Tool erstellt ein sauberes config.json-System.\n\nEs generiert:\n• config.json Beispiel\n• load_config() Funktion\n• save_config() Funktion\n\nWo einfügen:\n1. Erstelle eine config.json-Datei in deinem Projekt.\n2. Füge die beiden Funktionen in deinen Code ein."
+    }
+  },
+  "it": {
+    "progress_bar": {
+      "title": "Aggiungi Barra di Progresso",
+      "subtitle": "1. Scegli tipo → 2. Vedi anteprima → 3. Genera codice",
+      "explanation": "Questo strumento crea barre di progresso per le tue applicazioni.\n\nDue tipi disponibili:\n\n• Con %\n  Mostra la percentuale e il numero di file\n\n• Indeterminata\n  Va da sinistra ↔ destra (tempo sconosciuto)\n\nDove inserire:\n\n1. Creazione del widget → dentro il tuo __init__\n2. Le funzioni (update_progress, start_loading, stop_loading) NON esistono ancora. Devi crearle incollando il def allo stesso livello del tuo metodo __init__.\n3. Chiama le funzioni dentro il tuo processo lungo."
+    },
+    "indent_fixer": {
+      "title": "Correttore di Indentazione",
+      "subtitle": "1. Codice male indentato → 2. Formatta → 3. Codice corretto",
+      "explanation": "Questo strumento corregge la cattiva indentazione Python.\n\nCome usare:\n1. Incolla il tuo codice a sinistra\n2. Clicca sul pulsante\n3. Copia il codice corretto\n\nDove inserire:\n1. Sostituisci il tuo vecchio codice male indentato con la nuova versione corretta.\n2. Mantieni lo stesso posto nel tuo file.\n\nImportante: Python è molto sensibile agli spazi. Non mescolare mai tabulazioni e spazi.\n\nNessun nuovo metodo da creare."
+    },
+    "tk_to_ctk": {
+      "title": "Convertitore Tkinter → CustomTkinter",
+      "subtitle": "1. Incolla codice Tkinter → 2. Converti → 3. Ottieni codice",
+      "explanation": "Converte codice Tkinter classico in CustomTkinter moderno.\n\nCosa cambia:\n• import tkinter → ctk\n• Tk() → CTk()\n• Button → CTkButton\n• Label → CTkLabel\n• bg= → fg_color=\n\nDove inserire:\n1. Modo migliore: sostituisci l'intero vecchio file.\n2. Oppure copia i widget nel tuo __init__.\n\nNecessario: pip install customtkinter"
+    },
+    "ui_modernizer": {
+      "title": "Modernizzatore UI",
+      "subtitle": "1. Scegli opzione → 2. Vedi anteprima → 3. Genera codice",
+      "explanation": "Modernizza la tua interfaccia con snippet pronti all'uso.\n\nOpzioni: Dark Mode, Modern Buttons, Color Palette, Title+Footer, Clean Layout.\n\nDove inserire:\n1. Dark Mode & Palette → in cima al file o in __init__\n2. Pulsanti / Titolo → dentro __init__\n3. Layout → sostituisci il tuo codice di packing"
+    },
+    "status_logger": {
+      "title": "Aggiungi Status / Logs",
+      "subtitle": "1. Scegli tipo → 2. Vedi anteprima → 3. Genera codice",
+      "explanation": "Aggiunge una barra di stato o log in tempo reale.\n\nOpzioni: Simple Status, Live Logs, Status + Counter.\n\nDove inserire:\n1. Widget → dentro __init__\n2. Le funzioni (update_status, log) NON esistono ancora → creale allo stesso livello di __init__\n3. Chiamale quando ne hai bisogno"
+    },
+    "interface_templates": {
+      "title": "Modelli di Interfaccia",
+      "subtitle": "1. Scegli modello → 2. Vedi anteprima → 3. Genera codice",
+      "explanation": "Modelli pronti all'uso.\n\nBasic, Two Columns, List+Actions, Form.\n\nDove inserire:\n1. Crea un nuovo file\n2. Incolla tutto il codice\n3. Eseguilo"
+    },
+    "pyinstaller_builder": {
+      "title": "Costruttore PyInstaller",
+      "subtitle": "1. Scegli opzioni → 2. Vedi comando → 3. Genera",
+      "explanation": "Questo strumento costruisce il comando PyInstaller perfetto per il tuo progetto.\n\nOpzioni:\n• --onefile o --onedir\n• --windowed o --console\n• Supporto icona\n• Aggiungi cartelle (assets / tools)\n\nDove usarlo:\n1. Apri PowerShell nella cartella del progetto\n2. Incolla il comando generato\n3. Premi Invio\n\nL'exe verrà creato nella cartella 'dist'.\n\nConsiglio: Prova sempre prima con --onedir se hai problemi."
+    },
+    "import_cleaner": {
+      "title": "Pulitore di Import",
+      "subtitle": "1. Incolla codice → 2. Pulisci → 3. Ottieni import ordinati",
+      "explanation": "Questo strumento rimuove gli import non utilizzati e li ordina in modo pulito.\n\nCosa fa:\n• Rimuove gli import non usati nel codice\n• Ordina gli import in ordine alfabetico\n• Mantiene solo il necessario\n\nDove inserire:\n1. Sostituisci la sezione degli import all'inizio del file con la versione pulita.\n\nConsiglio: Controlla sempre il risultato, alcuni import dinamici possono essere rimossi."
+    },
+    "icon_adder": {
+      "title": "Aggiungi Icona",
+      "subtitle": "1. Scegli tipo → 2. Vedi codice → 3. Genera",
+      "explanation": "Questo strumento aggiunge un'icona alla tua finestra Tkinter o CustomTkinter.\n\nCosa fa:\n• Aggiunge la riga corretta di iconbitmap\n• Funziona con Tkinter e CustomTkinter\n• Prepara anche l'argomento --icon per PyInstaller\n\nDove inserire:\n1. Metti il codice generato dentro il metodo __init__, subito dopo la creazione della finestra."
+    },
+    "project_doctor": {
+      "title": "Project Doctor",
+      "subtitle": "1. Seleziona progetto → 2. Scansiona → 3. Correggi problemi sicuri",
+      "explanation": "Questo strumento analizza il tuo progetto e trova problemi comuni.\n\nControlla:\n• Import mancanti\n• Mix di tab/spazi\n• Import non usati\n• Guard main mancante\n• requirements.txt mancante\n• README mancante\n• Icona mancante\n• .gitignore mancante\n\nI problemi sicuri possono essere corretti automaticamente."
+    },
+    "scrollable_frame_adder": {
+      "title": "Aggiungi Frame Scrollabile",
+      "subtitle": "1. Scegli tipo → 2. Vedi anteprima → 3. Genera codice",
+      "explanation": "Questo strumento crea un frame scrollabile (una delle cose più noiose in Tkinter).\n\nGenera:\n• Canvas\n• Scrollbar\n• Frame interno\n• Supporto rotella del mouse\n\nDove inserire:\n1. Metti il codice dentro il metodo __init__.\n2. Poi aggiungi i tuoi widget dentro il frame scrollabile."
+    },
+    "exception_wrapper": {
+      "title": "Wrapper di Eccezione",
+      "subtitle": "1. Scegli tipo → 2. Vedi anteprima → 3. Genera",
+      "explanation": "Questo strumento avvolge una funzione con try/except per evitare crash.\n\nDue versioni:\n• Stampa l'errore nella console\n• Mostra un MessageBox (per app Tkinter)\n\nDove inserire:\n1. Sostituisci la chiamata alla funzione con la versione avvolta.\n2. Oppure avvolgi l'intera funzione."
+    },
+    "theme_switcher": {
+      "title": "Cambia Tema",
+      "subtitle": "1. Genera → 2. Copia → 3. Incolla nella tua app",
+      "explanation": "Questo strumento aggiunge un selettore di tema (Dark / Light / System) alla tua applicazione CustomTkinter.\n\nDove inserire:\n1. Metti il menu delle opzioni dentro il tuo __init__.\n2. Metti la funzione change_theme allo stesso livello di __init__."
+    },
+    "release_packager": {
+      "title": "Packager di Release",
+      "subtitle": "1. Seleziona .exe → 2. Scegli opzioni → 3. Crea ZIP",
+      "explanation": "Questo strumento crea uno ZIP pulito pronto per GitHub Releases.\n\nInclude:\n• Il tuo .exe\n• README.md (opzionale)\n• LICENSE (opzionale)\n\nLo ZIP viene creato accanto al tuo .exe."
+    },
+    "config_file_creator": {
+      "title": "Creatore File Config",
+      "subtitle": "1. Genera → 2. Copia → 3. Usa nel tuo progetto",
+      "explanation": "Questo strumento crea un sistema config.json pulito.\n\nGenera:\n• Esempio di config.json\n• Funzione load_config()\n• Funzione save_config()\n\nDove inserire:\n1. Crea un file config.json nel tuo progetto.\n2. Metti le due funzioni nel tuo codice."
+    }
+  },
+  "pt": {
+    "progress_bar": {
+      "title": "Adicionar Barra de Progresso",
+      "subtitle": "1. Escolher tipo → 2. Ver visual → 3. Gerar código",
+      "explanation": "Esta ferramenta cria barras de progresso para suas aplicações.\n\nDois tipos disponíveis:\n\n• Com %\n  Mostra a porcentagem e o número de arquivos\n\n• Indeterminada\n  Vai da esquerda ↔ direita (tempo desconhecido)\n\nOnde inserir:\n\n1. Criação do widget → dentro do seu __init__\n2. As funções (update_progress, start_loading, stop_loading) NÃO existem ainda. Você deve criá-las colando o def no mesmo nível do seu método __init__.\n3. Chame as funções dentro do seu processo longo."
+    },
+    "indent_fixer": {
+      "title": "Corretor de Indentação",
+      "subtitle": "1. Código mal indentado → 2. Formatar → 3. Código corrigido",
+      "explanation": "Esta ferramenta corrige a má indentação Python.\n\nComo usar:\n1. Cole seu código à esquerda\n2. Clique no botão\n3. Copie o código corrigido\n\nOnde inserir:\n1. Substitua seu código antigo mal indentado pela nova versão corrigida.\n2. Mantenha o mesmo lugar no seu arquivo.\n\nImportante: Python é muito sensível a espaços. Nunca misture tabulações e espaços.\n\nNenhum novo método para criar."
+    },
+    "tk_to_ctk": {
+      "title": "Conversor Tkinter → CustomTkinter",
+      "subtitle": "1. Colar código Tkinter → 2. Converter → 3. Obter código",
+      "explanation": "Converte código Tkinter clássico em CustomTkinter moderno.\n\nO que muda:\n• import tkinter → ctk\n• Tk() → CTk()\n• Button → CTkButton\n• Label → CTkLabel\n• bg= → fg_color=\n\nOnde inserir:\n1. Melhor forma: substitua todo o seu arquivo antigo.\n2. Ou copie os widgets para o seu __init__.\n\nNecessário: pip install customtkinter"
+    },
+    "ui_modernizer": {
+      "title": "Modernizador de UI",
+      "subtitle": "1. Escolher opção → 2. Ver visual → 3. Gerar código",
+      "explanation": "Moderniza sua interface com trechos prontos para usar.\n\nOpções: Dark Mode, Modern Buttons, Color Palette, Title+Footer, Clean Layout.\n\nOnde inserir:\n1. Dark Mode & Palette → no topo do arquivo ou em __init__\n2. Botões / Título → dentro de __init__\n3. Layout → substitua seu código de packing"
+    },
+    "status_logger": {
+      "title": "Adicionar Status / Logs",
+      "subtitle": "1. Escolher tipo → 2. Ver visual → 3. Gerar código",
+      "explanation": "Adiciona uma barra de status ou logs ao vivo.\n\nOpções: Simple Status, Live Logs, Status + Counter.\n\nOnde inserir:\n1. Widget → dentro de __init__\n2. As funções (update_status, log) NÃO existem ainda → crie-as no mesmo nível de __init__\n3. Chame-as quando precisar"
+    },
+    "interface_templates": {
+      "title": "Modelos de Interface",
+      "subtitle": "1. Escolher modelo → 2. Ver visual → 3. Gerar código",
+      "explanation": "Modelos prontos para usar.\n\nBasic, Two Columns, List+Actions, Form.\n\nOnde inserir:\n1. Crie um novo arquivo\n2. Cole todo o código\n3. Execute-o"
+    },
+    "pyinstaller_builder": {
+      "title": "Construtor PyInstaller",
+      "subtitle": "1. Escolher opções → 2. Ver comando → 3. Gerar",
+      "explanation": "Esta ferramenta constrói o comando PyInstaller perfeito para o seu projeto.\n\nOpções:\n• --onefile ou --onedir\n• --windowed ou --console\n• Suporte a ícone\n• Adicionar pastas (assets / tools)\n\nOnde usar:\n1. Abra o PowerShell na pasta do projeto\n2. Cole o comando gerado\n3. Pressione Enter\n\nO .exe será criado na pasta 'dist'.\n\nDica: Teste sempre primeiro com --onedir se tiver problemas."
+    },
+    "import_cleaner": {
+      "title": "Limpador de Imports",
+      "subtitle": "1. Colar código → 2. Limpar → 3. Obter imports ordenados",
+      "explanation": "Esta ferramenta remove imports não utilizados e os ordena de forma limpa.\n\nO que faz:\n• Remove imports que não são usados no código\n• Ordena os imports em ordem alfabética\n• Mantém apenas o necessário\n\nOnde inserir:\n1. Substitua a seção de imports no início do arquivo pela versão limpa.\n\nDica: Sempre verifique o resultado, alguns imports dinâmicos podem ser removidos."
+    },
+    "icon_adder": {
+      "title": "Adicionar Ícone",
+      "subtitle": "1. Escolher tipo → 2. Ver código → 3. Gerar",
+      "explanation": "Esta ferramenta adiciona um ícone à sua janela Tkinter ou CustomTkinter.\n\nO que faz:\n• Adiciona a linha correta de iconbitmap\n• Funciona com Tkinter e CustomTkinter\n• Também prepara o argumento --icon para o PyInstaller\n\nOnde inserir:\n1. Coloque o código gerado dentro do método __init__, logo após criar a janela."
+    },
+    "project_doctor": {
+      "title": "Project Doctor",
+      "subtitle": "1. Selecionar projeto → 2. Escanear → 3. Corrigir problemas seguros",
+      "explanation": "Esta ferramenta analisa o seu projeto e encontra problemas comuns.\n\nVerifica:\n• Imports em falta\n• Mistura de tabs/espaços\n• Imports não usados\n• Guard main em falta\n• requirements.txt em falta\n• README em falta\n• Ícone em falta\n• .gitignore em falta\n\nOs problemas seguros podem ser corrigidos automaticamente."
+    },
+    "scrollable_frame_adder": {
+      "title": "Adicionar Frame Scrollable",
+      "subtitle": "1. Escolher tipo → 2. Ver visual → 3. Gerar código",
+      "explanation": "Esta ferramenta cria um frame scrollable (uma das coisas mais chatas no Tkinter).\n\nGera:\n• Canvas\n• Scrollbar\n• Frame interior\n• Suporte à roda do rato\n\nOnde inserir:\n1. Coloque o código dentro do seu método __init__.\n2. Depois adicione os seus widgets dentro do frame scrollable."
+    },
+    "exception_wrapper": {
+      "title": "Wrapper de Exceção",
+      "subtitle": "1. Escolher tipo → 2. Ver pré-visualização → 3. Gerar",
+      "explanation": "Esta ferramenta envolve uma função com try/except para evitar crashes.\n\nDuas versões:\n• Imprimir o erro na consola\n• Mostrar um MessageBox (para apps Tkinter)\n\nOnde inserir:\n1. Substitua a chamada da função pela versão envolvida.\n2. Ou envolva toda a função."
+    },
+    "theme_switcher": {
+      "title": "Seletor de Tema",
+      "subtitle": "1. Gerar → 2. Copiar → 3. Colar na sua app",
+      "explanation": "Esta ferramenta adiciona um seletor de tema (Dark / Light / System) à sua aplicação CustomTkinter.\n\nOnde inserir:\n1. Coloque o menu de opções dentro do seu __init__.\n2. Coloque a função change_theme no mesmo nível que __init__."
+    },
+    "release_packager": {
+      "title": "Empacotador de Release",
+      "subtitle": "1. Selecionar .exe → 2. Escolher opções → 3. Criar ZIP",
+      "explanation": "Esta ferramenta cria um ZIP limpo pronto para GitHub Releases.\n\nInclui:\n• O seu .exe\n• README.md (opcional)\n• LICENSE (opcional)\n\nO ZIP é criado ao lado do seu .exe."
+    },
+    "config_file_creator": {
+      "title": "Criador de Arquivo Config",
+      "subtitle": "1. Gerar → 2. Copiar → 3. Usar no seu projeto",
+      "explanation": "Esta ferramenta cria um sistema config.json limpo.\n\nGera:\n• Exemplo de config.json\n• Função load_config()\n• Função save_config()\n\nOnde inserir:\n1. Crie um arquivo config.json no seu projeto.\n2. Coloque as duas funções no seu código."
+    }
+  }
+}
