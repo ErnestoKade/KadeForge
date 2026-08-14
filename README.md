@@ -15,52 +15,72 @@ You click a tool → you see a live preview → you get the ready-to-use code wi
 ---
 ## Included Tools
 
+### Main Window 
+
+![Main Window](assets/screenshots/01_prez.png)
+
 ### Indent Fixer
+
 ![Indent Fixer](assets/screenshots/02_indentfixer.png)
 
 ### Tkinter → CustomTkinter
+
 ![Tkinter to CustomTkinter](assets/screenshots/15_tk_to_ctk.png)
 
 ### Progress Bar Adder
+
 ![Progress Bar Adder](assets/screenshots/03_baradder.png)
 
 ### UI Modernizer
+
 ![UI Modernizer](assets/screenshots/08_uimodern.png)
 
 ### Status / Logs Adder
+
 ![Status / Logs Adder](assets/screenshots/04_logadder.png)
 
 ### Interface Templates
+
 ![Interface Templates](assets/screenshots/09_intertemplate.png)
 
 ### PyInstaller Builder
+
 ![PyInstaller Builder](assets/screenshots/05_installbuilder.png)
 
 ### Import Cleaner
+
 ![Import Cleaner](assets/screenshots/10_impcleaner.png)
 
 ### Icon Adder
+
 ![Icon Adder](assets/screenshots/06_iconadder.png)
 
 ### Project Doctor
+
 ![Project Doctor](assets/screenshots/11_projectdoctor.png)
 
 ### Scrollable Frame Adder
+
 ![Scrollable Frame Adder](assets/screenshots/16_scrollframadd.png)
 
 ### Exception Wrapper
+
 ![Exception Wrapper](assets/screenshots/12_wrapper.png)
 
 ### Theme Switcher
+
 ![Theme Switcher](assets/screenshots/14_themeswitch.png)
 
 ### Release Packager
+
 ![Release Packager](assets/screenshots/13_releasepack.png)
 
 ### Config File Creator
+
 ![Config File Creator](assets/screenshots/07_confilecreator.png)
 
 ### User Guide
+
 ![User Guide](assets/screenshots/17_userguide.png)
 
 ## Multilingual User Guide
@@ -123,33 +143,6 @@ Every tool has a right panel with clear explanations in multiple languages.
 
 ---
 
-
-## Project Structure
-
-KadeForge/
-├── main.py              
-├── assets/
-│   └── icon.ico
-├── lang/
-│   └── translations.json
-└── tools/
-    ├── indent_fixer/
-    ├── import_cleaner/
-    ├── pathlib_converter/
-    ├── progress_bar_adder/
-    ├── tk_to_ctk/
-    ├── pyinstaller_builder/
-    ├── icon_adder/
-    ├── project_doctor/
-    ├── scrollable_frame_adder/
-    ├── exception_wrapper/
-    ├── theme_switcher/
-    ├── config_file_creator/
-    └── ...
-
-Every tool is completely independent.
-
----
 
 ## Installation (from source)
 
